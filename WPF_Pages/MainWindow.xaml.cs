@@ -23,6 +23,7 @@ namespace WPF_Pages
         public MainWindow()
         {
             InitializeComponent();
+            Console.WriteLine("123");
 
             // выключение стандартного интерфейса переходов
             this.ShowsNavigationUI = false;
