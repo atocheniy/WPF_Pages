@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace WPF_Pages
 {
@@ -18,14 +19,14 @@ namespace WPF_Pages
 
         }
 
-        void Interface1.Print()
+        void Interface1.Print(List<string> strings)
         {
 
         }
 
-        bool Interface1.TryToPrint()
+        void Interface1.Print(Image img)
         {
-            return true;
+
         }
     }
 }
