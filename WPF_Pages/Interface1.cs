@@ -12,6 +12,6 @@ namespace WPF_Pages
         void Print(string format, string text);
         void Print();
 
-        bool TryToPrint();
+        bool TryToPrint123();
     }
 }

@@ -23,7 +23,7 @@ namespace WPF_Pages
 
         }
 
-        bool Interface1.TryToPrint()
+        bool Interface1.TryToPrint123()
         {
             return true;
         }
