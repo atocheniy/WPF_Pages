@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace WPF_Pages
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : NavigationWindow
     {
         public MainWindow()
@@ -25,7 +22,6 @@ namespace WPF_Pages
             InitializeComponent();
             Console.WriteLine("123");
 
-            // выключение стандартного интерфейса переходов
             this.ShowsNavigationUI = false;
         }
     }

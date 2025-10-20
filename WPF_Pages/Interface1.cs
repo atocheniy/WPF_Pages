@@ -13,6 +13,7 @@ namespace WPF_Pages
         void Print(string formatSTR, string textToPrint);
         void Print(List<string> strings);
 
+        bool TryToPrint123();
         void Print(Image img);
     }
 }

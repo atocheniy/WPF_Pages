@@ -24,6 +24,11 @@ namespace WPF_Pages
 
         }
 
+        bool Interface1.TryToPrint123()
+        {
+            return false;
+        }
+
         void Interface1.Print(Image img)
         {
 
