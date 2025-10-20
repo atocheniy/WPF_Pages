@@ -9,7 +9,9 @@ namespace WPF_Pages
     public interface Interface1
     {
         void Print(string text);
-        void Print(string text, params object[] args);
+        void Print(string format, string text);
         void Print();
+
+        bool TryToPrint();
     }
 }
